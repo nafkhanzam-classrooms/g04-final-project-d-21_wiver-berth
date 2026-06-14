@@ -110,10 +110,50 @@ Validasi ini sederhana, tetapi cukup untuk menunjukkan bahwa server tidak langsu
 
 ## Struktur File
 ```text
-FP_game/
+WiverBerth/
   client_gui.py       # GUI Pygame dan input client
   server_engine.py    # Dedicated UDP server, room, matchmaking, sync, replay
   network_config.py   # Konfigurasi jaringan, ukuran layar, codec JSON
   leaderboard.json    # Dibuat otomatis saat ada data ranking
   replays/            # Dibuat otomatis saat match selesai
 ```
+
+## Screenshot Hasil
+
+### Main Menu
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/5ba38c6a-cfcb-4a1c-adeb-6180ff2bab63" />
+
+### Rules
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/3600486d-c99a-419e-a520-aea9fe63e811" />
+
+### Leaderboard
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/855f2475-804f-4562-82dd-2c892e0fb256" />
+
+### Input Username
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/3ebc5c8d-7f5c-4d53-afc0-c84862c582cf" />
+
+### Halaman Setelah Login
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/f86f973f-df30-4565-b4c8-6de2293564ae" />
+
+### Create Room (Masuk ke Match Room menunggu lawan)
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/00dbb630-0123-4923-be97-e8d31abbbdd9" />
+
+### Quick Match (Sama seperti Create Room)
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/754e0db8-6515-4ac1-afd4-095d2d331f99" />
+
+### Join Room (Input kode untuk join)
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/62306119-5045-4370-a648-51e6c87859f9" />
+
+### Match Room (P1)
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/73f9437a-8c9e-4e24-8ae9-7852e4a2ec0e" />
+
+### Match Room (P2)
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/d31fe96a-f886-4874-a0fc-d9390c772302" />
+
+### Match Room (Spectator)
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/8d32b9e3-7768-4db2-bac6-3a9dcd5f44bb" />
+
+### Saat match selesai
+<img width="1002" height="790" alt="image" src="https://github.com/user-attachments/assets/5258d377-1931-4f95-85de-073016224c98" />
+
+
