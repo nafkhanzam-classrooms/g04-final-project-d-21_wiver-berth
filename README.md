@@ -15,7 +15,7 @@
 ```
 
 ## Penjelasan Program
-Project ini adalah game **Pong Multiplayer berbasis jaringan** menggunakan Python, Pygame, dan socket UDP. Game berjalan dengan arsitektur **dedicated authoritative server**, sehingga posisi bola, skor, status room, dan hasil pertandingan dihitung oleh server lalu disinkronkan ke semua client.
+Project ini adalah game **Pong Multiplayer berbasis jaringan** menggunakan Python, Pygame, dan socket UDP. Game berjalan dengan arsitektur **dedicated authoritative server**, sehingga posisi bola, skor, status room, dan hasil pertandingan dihitung oleh server lalu disinkronkan ke semua client. Client terdiri dari player dan spectator di room.
 
 Client hanya mengirim input pemain seperti gerakan paddle, ping, create room, join room, quick match, surrender, dan exit room. Server kemudian mengirimkan state terbaru ke seluruh player dan spectator di room tersebut.
 
